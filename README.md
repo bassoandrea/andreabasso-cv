@@ -4,6 +4,7 @@
 _The source behind my CV_
 
 [![RenderCV](https://img.shields.io/badge/RenderCV-GitHub-blue?style=flat&logo=github)](https://github.com/rendercv/rendercv)
+[![Render and Release](https://github.com/bassoandrea/andreabasso-cv/actions/workflows/render-and-release.yml/badge.svg)](https://github.com/bassoandrea/andreabasso-cv/actions/workflows/render-and-release.yml)
 </div>
 
 This repository contains the source files for my **Curriculum Vitae (CV)** in YAML format.
