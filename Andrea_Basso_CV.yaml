@@ -1,0 +1,277 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Andrea Basso
+  headline: Software Engineer
+  location: Costabissara (VI)
+  email: bassoandrea2201@gmail.com
+  photo: resources/andrea_basso_photo.png
+  phone: 
+  website: 
+  social_networks:
+    - network: LinkedIn
+      username: basso-andrea
+    - network: GitHub
+      username: bassoandrea
+  custom_connections:
+  sections:
+    about_me:
+      - "**Software Engineer appassionato, curioso e determinato, orientato a iniziative e progetti ambiziosi, stimolanti e ad alto impatto tecnologico.**"
+      - Specializzato in architetture software, protocolli IoT e soluzioni Cloud-native basate su microservizi, con esperienza full-stack nello sviluppo di soluzioni end-to-end distribuite e scalabili. 
+        Attento a qualità e pulizia del codice e a uno sviluppo funzionale e pianificato, sostengo le metodologie Agile e credo nel gioco di squadra.
+      - Accolgo con entusiasmo ogni occasione di imparare e sperimentare nuove soluzioni e tecnologie.
+    skills:
+      - label: Linguaggi
+        details: C# · Python · C/C++ · Java · PHP · JavaScript
+      - label: Framework Desktop
+        details: WPF · WinForms · Avalonia UI  
+      - label: Framework Web
+        details: ASP.NET Core (con EF) · Laravel (con Eloquent ORM) · Node.js · Vue.js  
+      - label: Protocolli IoT
+        details: gRPC · MQTT · AMQP · CoAP · OPC UA · Modbus TPC/RTU · HTTP/HTTPS (REST API)
+      - label: Database
+        details: MySQL · SQL Server · SQLite · MongoDB 
+      - label: Cloud e DevOps
+        details: Git · Docker · RabbitMQ · Microsoft Azure · Amazon Web Services (AWS)
+    experience:
+      - company: Axtra3D, Inc.
+        position: Senior Software Engineer
+        date:
+        start_date: 2022-09
+        end_date: present
+        location: Vicenza (VI)
+        work_mode: Hybrid
+        summary: Progettazione, sviluppo e manutenzione di soluzioni software end-to-end per macchine industriali di additive manufacturing,
+          team coordination e ownership dell'application lifecycle.
+        highlights:
+          - "realizzati HMI in **WPF** (con architettura **MVVM**), gestendo scenari multi-threading complessi, controllo di periferiche hardware e UI reattive e moderne"
+          - "sviluppato **SDK** di comunicazione basato su **gRPC** e UI cross-platform in **Avalonia**, progettato per l'accesso real-time a dati operativi/diagnostica e controllo remoto delle macchine"
+          - "progettata pipeline di telemetria e analisi predittiva su *Microsoft Azure*, consentendo raccolta, elaborazione, archiviazione dati e monitoraggio su dashboard in **ASP.NET Core**"
+          - "implementata **architettura distribuita** P2P, basata su transazioni replicate e validazione distribuita (*blockchain-like*) tramite **gRPC**, permettendo scambio e sincronizzazione dei dati tra macchine
+            senza server centrale, garantendo operatività offline e fault-tolerance"
+          - "gestito **migrazione a .NET 8**, **refactoring** di codice legacy e **offuscamento** del sorgente, aggiornando dipendenze e rimuovendo API deprecate per migliorare performance, sicurezza e manutenibilità"
+          - "coordinato le attività del team di sviluppo software e cross-team con metodologie **Agile** (Scrum), partecipando a pianificazione degli sprint, code review e brainstorming tecnici"
+      - company: Tonello
+        position: Software Engineer
+        date:
+        start_date: 2021-06
+        end_date: 2022-05
+        location: Sarcedo (VI)
+        work_mode: On-site
+        summary: Sviluppo full-stack di software per macchine industriali di finissaggio tessile e web app di supervisione e analisi dati, orientato all'ottimizzazione dei processi, modularità e scalabilità.
+        highlights:
+          - "sviluppati componenti del **software di supervisione** macchine e elaborazione dati, ottimizzando performance e tempi di processo, con back-end basato su **Laravel** e **API REST**, middleware di autenticazione e localizzazione e operazioni CRUD su database"
+          - "progettate **web app modulari** e altamente **configurabili**, sviluppate su **architettura data-driven** per consentire la personalizzazione di funzionalità e UI, minimizzando gli interventi sul codice sorgente"
+          - "adottato il framework **Vue.js** e deprecato l'utilizzo di jQuery, migliorando **efficienza, modularità e manutenibilità** dello sviluppo front-end"
+          - "realizzato un **proof-of-concept** per l'utilizzo di **OPC UA** nella comunicazione tra PLC, applicativo .NET bordo macchina e server centrale, analizzandone performance e compatibilità con l'infrastruttura esistente, con l'obbiettivo di standardizzare la comunicazione"
+    education:
+      - institution: ITS Alto Adriatico
+        area: IIoT Developer
+        grade: '**90**/100'
+        eqflevel: Livello 5 EQF
+        date:
+        start_date: 2020-10
+        end_date: 2022-07
+        location: Thiene (VI)
+        summary: Percorso intensivo di 2 anni, incentrato su protocolli IoT e architetture Cloud, finalizzato alla costruzione di solide competenze tecniche e professionali in ambito ICT
+        highlights:
+          - "approccio formativo strutturato in **lezioni teoriche**, **esercitazioni pratiche**, **simulazioni** tecniche e **project work**"
+          - "competenze in programmazione e ingegneria del software, design patterns, architetture Cloud (Azure, AWS), protocolli IoT, database (SQL, NoSQL), gestione big data, sviluppo web, sviluppo embedded, PLC, reti, virtualizzazione e cyber security, inglese tecnico" 
+          - "capston project su sistema **IoT Cloud-native** e **microservizi**: raccolta dati da dispositivi embedded tramite **MQTT**, aggregazione e inoltro a **Azure IoT Hub** con **AMQP**, elaborazione serverless con **Azure Functions**, storage e visualizzazione su dashboard web"
+          - "**2000 ore di formazione**, di cui **1200 di lezioni in aula e 800 di stage** in azienda."
+      - institution: ITT G. Chilesotti
+        area: Tecnico Informatico
+        grade: '**96**/100'
+        eqflevel: Livello 4 EQF
+        date:
+        start_date: 2014-08
+        end_date: 2019-07
+        location: Thiene (VI)
+        summary: Percorso formativo quinquennale per la preparazione di tecnici specializzati in analisi, progettazione, realizzazione e gestione di sistemi informatici e reti di comunicazione 
+        highlights:
+    languages:
+      - name: Italiano
+        summary: "*Madrelingua*`‎\t\t‎`●●●●●"
+      - name: Inglese
+        summary: "*Intermedio*`‎\t\t‎`●●●○○"
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.7in
+    right_margin: 0.7in
+    show_footer: true
+    show_top_note: true
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(81, 81, 81)
+    headline: rgb(110, 110, 110)
+    connections: rgb(81, 81, 81)
+    section_titles: rgb(81, 81, 81)
+    links: rgb(81, 81, 81)
+    footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  templates:
+    footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+    top_note: '*LAST_UPDATED CURRENT_DATE*'
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
+    time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+    one_line_entry:
+      main_column: '**LABEL:** DETAILS'
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, AREA
+        GRADE, *EQFLEVEL*
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: #'**DEGREE**'         
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column: |-
+        **NAME**
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column: |-
+        **COMPANY**, POSITION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION - *WORK_MODE*
+        DATE
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        SUMMARY
+        AUTHORS
+        URL (JOURNAL)
+      date_and_location_column: DATE
+locale:
+  language: italian
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: '2026-02-04'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/tmp/NAME_IN_SNAKE_CASE_Software_Engineer_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_Software_Engineer_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_Software_Engineer_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_Software_Engineer_CV.html
+    png_path: rendercv_output/tmp/NAME_IN_SNAKE_CASE_Software_Engineer_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []
