@@ -12,6 +12,19 @@ The idea is to manage the CV as code: edit the YAML data, generate PDFs, and cus
 
 ---
 
+## Repository Structure
+
+```bash
+.
+│   Andrea_Basso_CV.yaml
+│   README.md
+│
+└───resources
+        andrea_basso_photo.png
+```
+
+---
+
 ## Enviroment
 
 *RenderCV* can be used in two main ways:
