@@ -67,7 +67,7 @@ cv:
       - institution: ITS Alto Adriatico
         area: IIoT Developer
         grade: '**90**/100'
-        eqflevel: Livello 5 EQF
+        eqf_level: Livello 5 EQF
         date:
         start_date: 2020-10
         end_date: 2022-07
@@ -81,7 +81,7 @@ cv:
       - institution: ITT G. Chilesotti
         area: Tecnico Informatico
         grade: '**96**/100'
-        eqflevel: Livello 4 EQF
+        eqf_level: Livello 4 EQF
         date:
         start_date: 2014-08
         end_date: 2019-07
@@ -195,7 +195,7 @@ design:
     education_entry:
       main_column: |-
         **INSTITUTION**, AREA
-        GRADE, *EQFLEVEL*
+        GRADE, *EQF_LEVEL*
         SUMMARY
         HIGHLIGHTS
       degree_column: #'**DEGREE**'         
