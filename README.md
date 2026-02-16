@@ -17,8 +17,16 @@ The idea is to manage the CV as code: edit the YAML data, generate PDFs, and cus
 
 ```bash
 .
-│   Andrea_Basso_CV.yaml
 │   README.md
+│
+├───cv
+│       Andrea_Basso_CV_it.yaml
+│
+├───designs
+│       design_classic.yaml
+│
+├───locales
+│       locale_italian.yaml
 │
 └───resources
         andrea_basso_photo.png
@@ -75,7 +83,7 @@ function rendercv {
 
 - render a CV
     ```powershell
-    rendercv render "Your_Name_CV.yaml" -nomd -nohtml -nopng --watch
+    rendercv render "cv/Andrea_Basso_CV_it.yaml" -nomd -nohtml -nopng --watch
     ```
     Generates a PDF file of the CV from the YAML file.
 
