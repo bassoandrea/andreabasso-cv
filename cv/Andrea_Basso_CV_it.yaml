@@ -79,7 +79,7 @@ cv:
           - "capston project su sistema **IoT Cloud-native** e **microservizi**: raccolta dati da dispositivi embedded tramite **MQTT**, aggregazione e inoltro a **Azure IoT Hub** con **AMQP**, elaborazione serverless con **Azure Functions**, storage e visualizzazione su dashboard web"
           - "**2000 ore di formazione**, di cui **1200 di lezioni in aula e 800 di stage** in azienda."
       - institution: ITT G. Chilesotti
-        area: Tecnico Informatico
+        area: Perito Informatico
         grade: '**96**/100'
         eqf_level: Livello 4 EQF
         date:
