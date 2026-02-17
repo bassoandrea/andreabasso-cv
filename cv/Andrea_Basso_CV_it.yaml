@@ -50,8 +50,9 @@ cv:
           - "progettata pipeline di telemetria e analisi predittiva su *Microsoft Azure*, consentendo raccolta, elaborazione, archiviazione dati e monitoraggio su dashboard in **ASP.NET Core**"
           - "implementata **architettura distribuita** P2P, basata su transazioni replicate e validazione distribuita (*blockchain-like*) tramite **gRPC**, permettendo scambio e sincronizzazione dei dati tra macchine
             senza server centrale, garantendo operatività offline e fault-tolerance"
+          - "progettate pipeline CI/CD automatiche per build/deployment su **GitHub Actions**, riducendo il tempo manuale di rilascio del ~95%, aumentando la frequenza di rilascio di ~2×, e eliminando errori di pacchettizzazione e distribuzione"
           - "gestito **migrazione a .NET 8**, **refactoring** di codice legacy e **offuscamento** del sorgente, aggiornando dipendenze e rimuovendo API deprecate per migliorare performance, sicurezza e manutenibilità"
-          - "coordinato le attività del team di sviluppo software e cross-team con metodologie **Agile** (Scrum), partecipando a pianificazione degli sprint, code review e brainstorming tecnici"
+          - "coordinato le attività di sviluppo software in un team globale e cross-funzionale con metodologie **Scrum** (Agile), partecipando a pianificazione degli sprint, code review e brainstorming tecnici"
       - company: Tonello
         position: Software Engineer
         date:
@@ -61,7 +62,7 @@ cv:
         work_mode: On-site
         summary: Sviluppo full-stack di software per macchine industriali di finissaggio tessile e web app di supervisione e analisi dati, orientato all'ottimizzazione dei processi, modularità e scalabilità.
         highlights:
-          - "sviluppati componenti del **software di supervisione** macchine e elaborazione dati, ottimizzando performance e tempi di processo, con back-end basato su **Laravel** e **API REST**, middleware di autenticazione e localizzazione e operazioni CRUD su database"
+          - "sviluppati componenti del software di **supervisione** industriale e **elaborazione dati**, ottimizzando performance e tempi di processo, con back-end basato su **Laravel** e **API REST**, middleware di autenticazione e localizzazione e operazioni CRUD su database"
           - "progettate **web app modulari** e altamente **configurabili**, sviluppate su **architettura data-driven** per consentire la personalizzazione di funzionalità e UI, minimizzando gli interventi sul codice sorgente"
           - "adottato il framework **Vue.js** e deprecato l'utilizzo di jQuery, migliorando **efficienza, modularità e manutenibilità** dello sviluppo front-end"
           - "realizzato un **proof-of-concept** per l'utilizzo di **OPC UA** nella comunicazione tra PLC, applicativo .NET bordo macchina e server centrale, analizzandone performance e compatibilità con l'infrastruttura esistente, con l'obbiettivo di standardizzare la comunicazione"
