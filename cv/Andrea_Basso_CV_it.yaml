@@ -22,16 +22,18 @@ cv:
     skills:
       - label: Linguaggi
         details: C# · Python · C/C++ · Java · PHP · JavaScript
-      - label: Framework Desktop
-        details: WPF · WinForms · Avalonia UI  
-      - label: Framework Web
-        details: ASP.NET Core (con EF) · Laravel (con Eloquent ORM) · Node.js · Vue.js  
+      - label: Desktop
+        details: .NET/.NET Core · WPF · WinForms · Avalonia UI  
+      - label: Back-end
+        details: ASP.NET Core (with EF) · Laravel (with Eloquent ORM) · Node.js 
+      - label: Front-end
+        details: Vue.js
       - label: Protocolli IoT
         details: gRPC · MQTT · AMQP · CoAP · OPC UA · Modbus TPC/RTU · HTTP/HTTPS (REST API)
       - label: Database
         details: MySQL · SQL Server · SQLite · MongoDB 
       - label: Cloud e DevOps
-        details: Git · Docker · RabbitMQ · Microsoft Azure · Amazon Web Services (AWS)
+        details: Git · GitHub Actions · Docker · RabbitMQ · Microsoft Azure · Amazon Web Services (AWS)
     experience:
       - company: Axtra3D, Inc.
         position: Senior Software Engineer
