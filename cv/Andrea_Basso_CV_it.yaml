@@ -29,7 +29,7 @@ cv:
       - label: Front-end
         details: Vue.js
       - label: Protocolli IoT
-        details: gRPC · MQTT · AMQP · CoAP · OPC UA · Modbus TPC/RTU · HTTP/HTTPS (REST API)
+        details: gRPC · MQTT · AMQP · CoAP · OPC UA · Modbus TCP/RTU · HTTP/HTTPS (REST API)
       - label: Database
         details: MySQL · SQL Server · SQLite · MongoDB 
       - label: Cloud e DevOps
@@ -43,15 +43,15 @@ cv:
         location: Vicenza (VI)
         work_mode: Hybrid
         summary: Progettazione, sviluppo e manutenzione di soluzioni software end-to-end per macchine industriali di additive manufacturing,
-          team coordination e ownership dell'application lifecycle.
+          cross-team coordination e ownership dell'application lifecycle.
         highlights:
           - "realizzati HMI in **WPF** (con architettura **MVVM**), gestendo scenari multi-threading complessi, controllo di periferiche hardware e UI reattive e moderne"
           - "sviluppato **SDK** di comunicazione basato su **gRPC** e UI cross-platform in **Avalonia**, progettato per l'accesso real-time a dati operativi/diagnostica e controllo remoto delle macchine"
           - "progettata e implementata pipeline globale di telemetria e analisi predittiva su **Microsoft Azure**, consentendo raccolta, elaborazione e storage di dati ad alta frequenza (media di ~5k eventi/giorno per macchina, picchi fino a ~50k), monitorati tramite dashboard **ASP.NET Core**"
-          - "implementata **architettura distribuita** P2P, basata su transazioni replicate e validazione distribuita (*blockchain-like*) tramite **gRPC**, permettendo scambio e sincronizzazione dei dati tra macchinesenza server centrale, garantendo operatività offline e fault-tolerance"
-          - "progettate pipeline CI/CD automatiche per build/deployment su **GitHub Actions**, riducendo il tempo manuale di rilascio del ~95%, aumentando la frequenza di rilascio di ~2×, e eliminando errori di pacchettizzazione e distribuzione"
+          - "implementata **architettura distribuita** P2P, basata su transazioni replicate e validazione distribuita (*blockchain-like*) tramite **gRPC**, permettendo scambio e sincronizzazione dei dati tra macchine senza server centrale, garantendo operatività offline e fault-tolerance"
+          - "progettate pipeline CI/CD automatizzate per build/deployment su **GitHub Actions**, riducendo il tempo manuale di rilascio del ~95%, aumentando la frequenza di rilascio di ~2×, e eliminando errori di pacchettizzazione e distribuzione"
           - "gestito **migrazione a .NET 8**, **refactoring** di codice legacy e **offuscamento** del sorgente, aggiornando dipendenze e rimuovendo API deprecate per migliorare performance, sicurezza e manutenibilità"
-          - "coordinato le attività di sviluppo software in un team globale e cross-funzionale con metodologie **Scrum** (Agile), partecipando a pianificazione degli sprint, code review e brainstorming tecnici"
+          - "coordinate le attività di sviluppo software in un team globale e cross-funzionale con metodologie **Scrum** (Agile), partecipando a pianificazione degli sprint, code review e brainstorming tecnici"
       - company: Tonello
         position: Software Engineer
         date:
@@ -78,7 +78,7 @@ cv:
         highlights:
           - "approccio formativo strutturato in **lezioni teoriche**, **esercitazioni pratiche**, **simulazioni** e **project work**"
           - "competenze in programmazione e ingegneria del software, design patterns, architetture Cloud (Azure, AWS), protocolli IoT, database (SQL, NoSQL), gestione big data, sviluppo web, sviluppo embedded, PLC, reti, virtualizzazione e cyber security, inglese tecnico" 
-          - "capston project su sistema **IoT Cloud-native** e **microservizi**: raccolta dati da dispositivi embedded tramite **MQTT**, aggregazione e inoltro a **Azure IoT Hub** con **AMQP**, elaborazione serverless con **Azure Functions**, storage e visualizzazione su dashboard web"
+          - "capstone project su sistema **IoT Cloud-native** e **microservizi**: raccolta dati da dispositivi embedded tramite **MQTT**, aggregazione e inoltro a **Azure IoT Hub** con **AMQP**, elaborazione serverless con **Azure Functions**, storage e visualizzazione su dashboard web"
           - "**2000 ore di formazione**, di cui **1200 di lezioni in aula e 800 di stage** in azienda"
       - institution: ITT G. Chilesotti
         area: Perito Informatico
