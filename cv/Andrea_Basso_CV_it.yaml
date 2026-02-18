@@ -47,9 +47,8 @@ cv:
         highlights:
           - "realizzati HMI in **WPF** (con architettura **MVVM**), gestendo scenari multi-threading complessi, controllo di periferiche hardware e UI reattive e moderne"
           - "sviluppato **SDK** di comunicazione basato su **gRPC** e UI cross-platform in **Avalonia**, progettato per l'accesso real-time a dati operativi/diagnostica e controllo remoto delle macchine"
-          - "progettata pipeline di telemetria e analisi predittiva su *Microsoft Azure*, consentendo raccolta, elaborazione, archiviazione dati e monitoraggio su dashboard in **ASP.NET Core**"
-          - "implementata **architettura distribuita** P2P, basata su transazioni replicate e validazione distribuita (*blockchain-like*) tramite **gRPC**, permettendo scambio e sincronizzazione dei dati tra macchine
-            senza server centrale, garantendo operatività offline e fault-tolerance"
+          - "progettata e implementata pipeline globale di telemetria e analisi predittiva su **Microsoft Azure**, consentendo raccolta, elaborazione e storage di dati ad alta frequenza (media di ~5k eventi/giorno per macchina, picchi fino a ~50k), monitorati tramite dashboard **ASP.NET Core**"
+          - "implementata **architettura distribuita** P2P, basata su transazioni replicate e validazione distribuita (*blockchain-like*) tramite **gRPC**, permettendo scambio e sincronizzazione dei dati tra macchinesenza server centrale, garantendo operatività offline e fault-tolerance"
           - "progettate pipeline CI/CD automatiche per build/deployment su **GitHub Actions**, riducendo il tempo manuale di rilascio del ~95%, aumentando la frequenza di rilascio di ~2×, e eliminando errori di pacchettizzazione e distribuzione"
           - "gestito **migrazione a .NET 8**, **refactoring** di codice legacy e **offuscamento** del sorgente, aggiornando dipendenze e rimuovendo API deprecate per migliorare performance, sicurezza e manutenibilità"
           - "coordinato le attività di sviluppo software in un team globale e cross-funzionale con metodologie **Scrum** (Agile), partecipando a pianificazione degli sprint, code review e brainstorming tecnici"
