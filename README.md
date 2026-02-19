@@ -77,13 +77,13 @@ function rendercv {
 
 - create a new CV
     ```powershell
-    rendercv new "Your Name"
+    rendercv new "Andrea Basso"
     ```
     Generates an initial YAML file for the CV in the current folder.
 
 - render a CV
     ```powershell
-    rendercv render "cv/Andrea_Basso_CV_it.yaml" -nomd -nohtml -nopng --watch
+    rendercv render "cv/Andrea_Basso_CV_it.yaml"
     ```
     Generates a PDF file of the CV from the YAML file.
 
