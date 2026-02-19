@@ -20,20 +20,22 @@ jobs:
         uses: actions/checkout@v6
 
       # Render the PDF from YAML using RenderCV (v2.6) Docker container
-      - name: Render CV PDF
+      - name: Render CV PDFs
         run: |
-          docker run --rm -u 0 -v "$PWD":/work -w /work ghcr.io/rendercv/rendercv:v2.6 render "cv/Andrea_Basso_CV_it.yaml"
-
-      # Create a clean symlink for the release asset
-      - name: Prepare PDF for Release
+          docker run --rm -u 0 -v "$PWD":/work -w /work --entrypoint sh ghcr.io/rendercv/rendercv:v2.6 \
+            -c "rendercv render cv/Andrea_Basso_CV_it.yaml && rendercv render cv/Andrea_Basso_CV_en.yaml"
+            
+      # Create clean symlinks for the release assets
+      - name: Prepare PDFs for Release
         run: |
           ln -sf rendercv_output/Andrea_Basso_Software_Engineer_CV_it.pdf Andrea_Basso_Software_Engineer_CV_it.pdf
+          ln -sf rendercv_output/Andrea_Basso_Software_Engineer_CV_en.pdf Andrea_Basso_Software_Engineer_CV_en.pdf
 
       - name: Publish Release
         uses: ncipollo/release-action@v1
         with:
           tag: cv-latest
           name: "CV"
-          artifacts: Andrea_Basso_Software_Engineer_CV_it.pdf
+          artifacts: Andrea_Basso_Software_Engineer_CV_it.pdf, Andrea_Basso_Software_Engineer_CV_en.pdf
           allowUpdates: true
           replacesArtifacts: true
