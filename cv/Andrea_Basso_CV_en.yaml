@@ -1,0 +1,113 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Andrea Basso
+  headline: Software Engineer
+  location: Costabissara (VI), Italy
+  email: bassoandrea2201@gmail.com
+  photo: ../resources/andrea_basso_photo.png
+  phone: 
+  website: 
+  social_networks:
+    - network: LinkedIn
+      username: basso-andrea
+    - network: GitHub
+      username: bassoandrea
+  custom_connections:
+  sections:
+    about_me:
+      - "**Passionate, curious, and determined Software Engineer, driven toward ambitious, challenging, and high-impact technology projects.**"
+      - Specialized in software architectures, IoT protocols, and Cloud-native microservices solutions, with full-stack experience developing distributed, scalable end-to-end systems. 
+        Focused on code quality, clean architecture, and structured development practices; strong supporter of Agile methodologies and teamwork.
+      - I enthusiastically welcome every opportunity to learn and experiment with new technologies and solutions.
+    skills:
+      - label: Languages
+        details: C# · Python · C/C++ · Java · PHP · JavaScript
+      - label: Desktop
+        details: .NET/.NET Core · WPF · WinForms · Avalonia UI  
+      - label: Back-end
+        details: ASP.NET Core (with EF) · Laravel (with Eloquent ORM) · Node.js 
+      - label: Front-end
+        details: Vue.js
+      - label: IoT Protocols
+        details: gRPC · MQTT · AMQP · CoAP · OPC UA · Modbus TCP/RTU · HTTP/HTTPS (REST API)
+      - label: Databases
+        details: MySQL · SQL Server · SQLite · MongoDB 
+      - label: Cloud and DevOps
+        details: Git · GitHub Actions · Docker · RabbitMQ · Microsoft Azure · Amazon Web Services (AWS)
+    experience:
+      - company: Axtra3D, Inc.
+        position: Senior Software Engineer
+        date:
+        start_date: 2022-09
+        end_date: present
+        location: Vicenza (VI), Italy
+        work_mode: Hybrid
+        summary: Design, development, and maintenance of end-to-end software solutions for industrial additive manufacturing machines, 
+          including cross-team coordination and application lifecycle ownership.
+        highlights:
+          - "developed HMIs in **WPF** (**MVVM** architecture), managing complex multithreading scenarios, hardware device control, and modern responsive UIs"
+          - "built a **gRPC**-based communication **SDK** and cross-platform UI in **Avalonia**, enabling real-time operational/diagnostic data access and remote machine control"
+          - "architected and implemented a global telemetry and predictive analytics pipeline on **Microsoft Azure**, enabling high-frequency data collection, processing, and storage (average of ~5k events/day per machine, peaking at ~50k), monitored via an **ASP.NET Core** dashboard"
+          - "implemented a **distributed architecture** (P2P) based on replicated transactions and distributed validation (*blockchain-like*) via gRPC, enabling machine-to-machine data synchronization without a central server, ensuring offline operation and fault tolerance"
+          - "designed automated CI/CD pipelines for build and deployment via **GitHub Actions**, reducing manual release time by ~95%, increasing release frequency by ~2×, and eliminating packaging and deployment errors"
+          - "led **migration to .NET 8**, including legacy **code refactoring** and **source obfuscation**, updating dependencies and removing deprecated APIs to improve performance, security, and maintainability"
+          - "coordinated software development activities across global cross-functional teams, participating in sprint planning, code reviews, and technical brainstorming in **Scrum** (Agile) environment"
+      - company: Tonello
+        position: Software Engineer
+        date:
+        start_date: 2021-06
+        end_date: 2022-05
+        location: Sarcedo (VI), Italy
+        work_mode: On-site
+        summary: Full-stack development of software for industrial textile finishing machines and web applications for supervision and data analysis, focused on process optimization, modularity, and scalability.
+        highlights:
+          - "developed back-end modules for industrial **supervision** and **data processing** software, optimizing performance and process time, with **Laravel** back-end, **REST APIs**, authentication/localization middleware, and database CRUD operations"
+          - "designed **modular**, **highly configurable** web apps using **data-driven architecture** to enable features and UI customization while minimizing interventions on source code"
+          - "adopted **Vue.js** framework and deprecated jQuery usage, improving **efficiency, modularity, and maintainability** of front-end development"
+          - "built a **proof-of-concept** for **OPC UA** communication between PLCs, .NET machine-side applications, and central server, analyzing performance and infrastructure compatibility to standardize communication"
+    education:
+      - institution: ITS Alto Adriatico
+        area: IIoT Developer
+        grade: '**90**/100'
+        eqf_level: EQF Level 5
+        date:
+        start_date: 2020-10
+        end_date: 2022-07
+        location: Thiene (VI), Italy
+        summary: Intensive two-year program focused on IoT protocols and Cloud architectures, aimed at building strong technical and professional ICT competencies.
+        highlights:
+          - "structured learning approach combining **theory**, **hands-on labs**, **simulations**, and **project work**"
+          - "skills in programming and software engineering, design patterns, Cloud architectures (Azure, AWS), IoT protocols, databases (SQL, NoSQL), big data management, web development, embedded development, PLCs, networking, virtualization, cybersecurity, and technical English" 
+          - "capstone project on **IoT Cloud-native** system and **microservices**: data collection from embedded devices via **MQTT**, aggregation and forwarding to **Azure IoT Hub** with **AMQP**, serverless processing with **Azure Functions**, storage and visualization via web dashboard"
+          - "**2000 training hours** (1200 classroom + 800 internship)"
+      - institution: ITT G. Chilesotti
+        area: IT Specialist
+        grade: '**96**/100'
+        eqf_level: EQF Level 4
+        date:
+        start_date: 2014-08
+        end_date: 2019-07
+        location: Thiene (VI), Italy
+        summary: Five-year program preparing specialized technicians in analysis, design, development, and management of IT systems and networks.
+        highlights:
+    languages:
+      - name: Italiano
+        summary: "*Native language*`‎\t\t‎`●●●●●"
+      - name: Inglese
+        summary: "*Intermediate*`‎\t\t‎`●●●○○"
+settings:
+  # current_date: '2026-02-04'
+  render_command:
+    design: ../designs/design_classic.yaml
+    locale: ../locales/locale_english.yaml
+    pdf_path: ../rendercv_output/NAME_IN_SNAKE_CASE_Software_Engineer_CV_en.pdf
+    typst_path: ../rendercv_output/tmp/NAME_IN_SNAKE_CASE_Software_Engineer_CV_en.typ
+    markdown_path: ../rendercv_output/NAME_IN_SNAKE_CASE_Software_Engineer_CV_en.md
+    html_path: ../rendercv_output/NAME_IN_SNAKE_CASE_Software_Engineer_CV_en.html
+    png_path: ../rendercv_output/tmp/NAME_IN_SNAKE_CASE_Software_Engineer_CV_en.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []
