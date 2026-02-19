@@ -95,3 +95,17 @@ function rendercv {
 
 ---
 
+## CI/CD Workflow
+
+The repository includes a *GitHub Actions* workflow (`render-and-release.yml`) that automates the rendering and publishing.
+
+The workflow is triggered automatically on every push that modifies files in the `cv/`, `designs/`, `locales/`, or `resources/` folders, and can also be triggered manually from the Actions tab.
+
+**Steps:**
+
+1. **Checkout Repository** — checks out the repository contents.
+2. **Render CV PDFs** — runs *RenderCV* Docker container (`v2.6`) to render both the Italian and English versions of the CV from their respective YAML source files.
+3. **Prepare PDFs for Release** — creates symlinks to the generated PDFs with clean, release-friendly filenames.
+4. **Publish Release** — uses [`ncipollo/release-action`](https://github.com/ncipollo/release-action) to create or update a GitHub Release tagged `cv-latest`, attaching both PDF files as release assets.
+
+> The release is always kept up to date: existing artifacts are replaced on every run.
