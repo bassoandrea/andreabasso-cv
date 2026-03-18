@@ -7,8 +7,10 @@ on:
       - 'designs/**'
       - 'locales/**'
       - 'resources/**'
+  schedule:
+    - cron: "0 0 2 * *"
   workflow_dispatch:
-
+  
 jobs:
   render-and-publish:
     runs-on: ubuntu-latest
